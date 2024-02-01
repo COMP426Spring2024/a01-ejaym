@@ -1,4 +1,146 @@
  h1{
     text-align: center;
     font-size: 24px;
+    color:#ff00ff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #8b0000;
   }
+  img {
+    border: 5px solid #555;
+  }
+  #titlemyth{
+    color: #ff00ff;
+  }
+  
+  #indexbody{
+    background-color:#8a2be2;
+  }
+  #themythbody{
+    background-color: #8a2be2;
+  }
+  img.picture{
+    display: block;
+    margin: auto;
+    height: 225px;
+    width: 225px;
+    border: 10px solid #8b0000;
+  }
+  .intro{
+    font-family: Monaco;
+    text-indent: 50px;
+    color: #FFFFFF;
+
+  }
+  .morewriting{
+    font-family: Monaco;
+    text-indent: 50px;
+    color: #FFFFFF;
+  }
+  #numlist{
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFFFFF;
+  }
+  .supportivemessage{
+    font-family: Monaco;
+    text-indent: 50px;
+    color: #FFFFFF;
+  }
+  .navigationtable{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #ff00ff;
+  }
+  .titleoftable{
+    font-family: Monaco;
+    color: #ffff00;
+  }
+  .link:link{
+    color:white;
+  }
+  .link:visited{
+    color: #adff2f;
+  }
+  .link:hover{
+    background-color: #8b0000;
+  }
+  
+  
+  #myfavorite{
+    color:#FFFFFF;
+  }
+  #firstonmyth{
+    font-family: Monaco;
+    color: #ffff00;
+    text-indent: 50px;
+  }
+  #secondonmyth{
+    font-family: Monaco;
+    color: #ffff00;
+    text-indent: 50px;
+    background-color: #5c00ac;}
+  #thirdonmyth{
+    font-family: Monaco;
+    color: #ffff00;
+    text-indent: 50px;}
+  #fourthonmyth{
+    font-family: Monaco;
+    color: #ffff00;
+    text-indent: 50px;
+    background-color: #5c00ac;
+  }
+  #bulletheader{
+    color: #ffff00;
+    font-family:Georgia, 'Times New Roman', Times, serif
+  }
+  #bulletpreface{
+    font-family: Monaco;
+    color: #ffff00;;
+  }
+  #bulletpoints{
+    background-color: #5c00ac;
+    color: #ffff00;
+  }
+  #Thismythis{
+    color: #ffff00;
+    font-family:Monaco;
+  }
+  table {
+    width: 100%;
+  }
+  table,th,td{
+    color: #ffffff;
+    border: 2px  solid #000000;
+  }
+  #popculturetable{
+    background-color: #ff00ff;
+  }
+  #popculturebody{
+    background-color: #8a2be2;
+  }
+  #intropopculture{
+    color:#adff2f;
+    font-family:Monaco;
+  }
+  #notableex{
+    color:#adff2f;
+    font-family:Monaco;
+  }
+  #prelistrelated{
+    font-family: Monaco;
+    color: #adff2f;
+  }
+  #myfavoriterelated{
+    color:#adff2f;
+    font-family: Monaco;
+  }
+  #myfavorite{
+    color: #ffffff;
+    font-family: Monaco;
+  }
+
+
+
+
+
+

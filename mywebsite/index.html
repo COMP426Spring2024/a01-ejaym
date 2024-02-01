@@ -5,15 +5,15 @@
         <link rel="stylesheet" href="cssfile.css">
     </head>
     <!--FOR THE LOVE OF GOD DO A FORTUNE TELLER THEME PLEASE PLEASE PLEASE DO A FORTUNE TELLER THEME-->
-    <body>
-        <img src="crystalball.jpeg" alt="Crystal Ball"> <!--Maybe make this one the main aesthetic of it all,, also theres html validation error w this-->
+    <body id="indexbody">
+        <img id="crystalball" src="crystalball.jpeg" class="picture" alt="Crystal Ball"> <!--Maybe make this one the main aesthetic of it all,, also theres html validation error w this-->
         <div class="h1">
             <h1>The Myth of Orpheus and Eurydice</h1>
         </div>
 
         <div class="intro">
             <p id="introHades">The tragic tale of two love birds who were stolen from each other and reunited through pure determination, only to lose everything in the end.
-            This classic and eternal story has been passed down for generations and inspired many incredible works, such as a Broadway musical named <i>Hadestown</i>, which can be read about <a href="https://en.wikipedia.org/wiki/Hadestown" target="_blank" rel="noopener noreferrer" title="Read About Hadestown">here</a>.</p>
+            This classic and eternal story has been passed down for generations and inspired many incredible works, such as a Broadway musical named <i>Hadestown</i>, which can be read about <a href="https://en.wikipedia.org/wiki/Hadestown" class="link" target="_blank" title="Read About Hadestown">here</a>.</p>
         </div>
 
         <div class="morewriting">
@@ -27,7 +27,7 @@
             </ol>
         </div>
 
-        <div class="supportive message">
+        <div class="supportivemessage">
             <p>In this world, life is difficult and unforgiving, and myths like Orpheus and Eurydice reflect that. 
                 However, the difference between us and these stories is that we are able to learn from our own faults and 
                 the faults of our heros in these stories. They suffer eternally so we might avoid the same fate. For that we should be most thankful.
@@ -35,7 +35,13 @@
 
 
         </div>
-
+        <p id="myfavorite">
+            My favorite Myth is <select name="myths" id="mythselect">
+                <option value="This one">This one!</option>
+                <option value="Another one">Another one!</option>
+                <option value="Icarus">Icarus!</option>
+            </select>
+        </p>
         <div class="navigationtable">
             <table>
                 <tr>
@@ -48,8 +54,8 @@
                         <div class="buttontomyth">
                         <button onclick="window.location.href='themyth.html';">Refresher on the Myth</button>
                         </div>
-                        <div class="artworkinspiredby">
-                            <button onclick="window.location.href='artwork.html';">Artwork Inspired by the Myth</button>
+                        <div class="popculture">
+                            <button onclick="window.location.href='popculture.html';">The Myth in Pop Culture</button>
                         </div>
                         <div class="supersecretbutton">
                             <button onclick="window.location.href='https://youtu.be/dQw4w9WgXcQ?si=yWx81MzpwKOpk0sW';">Secret Button</button>      
